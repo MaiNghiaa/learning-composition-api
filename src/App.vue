@@ -1,17 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <main class="container">
+    <img alt="Vue logo" src="./assets/logo.png" />
+    <LearningReactivity></LearningReactivity>
+  </main>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import LearningReactivity from "./components/LearningReactivity.vue";
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  name: "App",
+  components: { LearningReactivity },
+};
 </script>
 
 <style>
