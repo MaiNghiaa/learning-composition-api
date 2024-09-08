@@ -1,16 +1,20 @@
 <template>
   <main class="container">
     <img alt="Vue logo" src="./assets/logo.png" />
-    <LearningReactivity></LearningReactivity>
+    <!-- <LearningReactivity></LearningReactivity> -->
+    <Ref_reactive />
   </main>
 </template>
 
 <script>
-import LearningReactivity from "./components/LearningReactivity.vue";
-
+// import LearningReactivity from "./components/LearningReactivity.vue";
+import Ref_reactive from "./components/ref_reactive.vue";
 export default {
   name: "App",
-  components: { LearningReactivity },
+  components: {
+    // LearningReactivity,
+    Ref_reactive,
+  },
 };
 </script>
 
