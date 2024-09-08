@@ -34,6 +34,7 @@ export default {
       name: userAge,
       age: userAge,
     });
+    let userSchool = reactive();
     setTimeout(() => {
       userName.value = "Minh Trang";
       user.name = "Mình nè";
